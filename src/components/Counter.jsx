@@ -9,8 +9,8 @@ function Counter() {
 	const dispatch = useDispatch();
 
 	return (
-		<div>
-			<div className="d-flex w-100 flex-column align-items-center justify-content-center vh-100">
+		<>
+			<div className="d-flex flex-column align-items-center justify-content-center vh-100">
 				<h1>Counter: {count}</h1>
 				<div className="d-flex align-items-center justify-content-center mt-3">
 					<button
@@ -33,7 +33,7 @@ function Counter() {
 					</button>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 
